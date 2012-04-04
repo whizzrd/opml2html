@@ -27,9 +27,8 @@
 	  <head>
 		<xsl:copy-of select="title" />
 		<xsl:copy-of select="meta" />
-		<script src="lib/jquery/jquery.js" type="text/javascript"></script>
-		<script type="text/javascript" src="lib/jquery/jquery.js"></script>
-		<script type="text/javascript" src="lib/jarallax/jarallax-0.2.js"></script>
+		<script type="text/javascript" src="lib/jquery/js/jquery.js"></script>
+		<script type="text/javascript" src="lib/jarallax/js/jarallax-0.2.js"></script>
 		<style type="text/css">
 .jarallax_background {
 	margin-left:-650px;

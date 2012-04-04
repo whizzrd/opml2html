@@ -42,17 +42,7 @@
 
   <xsl:template name="actionshead">
     <xsl:param name="content" />
-	  <script src="lib/jquery/jquery-1.7.1.js" type="text/javascript"></script>
-	  <script src="lib/jquery/jquery.cookie.js" type="text/javascript"></script>
-	  <script src="lib/jquery/jquery.treeview.js" type="text/javascript"></script>
-	  <link rel="stylesheet" href="lib/jquery/jquery.treeview.css" />
-	  <link rel="stylesheet" href="lib/bootstrap/2.0/css/bootstrap.css" />
-	  <script src="lib/jquery/ui/js/jquery-ui-1.8.18.custom.min.js" type="text/javascript"></script>
-	  <script type="text/javascript" src="lib/bootstrap/2.0/js/bootstrap.js"></script>
-	  <script type="text/javascript" src="lib/bootstrap/2.0/js/bootstrap-modal.js"></script>
-	  <script type="text/javascript" src="lib/bootstrap/2.0/js/bootstrap-carousel.js"></script>
-	  <script type="text/javascript" src="lib/bootstrap/2.0/js/bootstrap-tab.js"></script>
-	  <script type="text/javascript" src="lib/bootstrap/2.0/js/bootstrap-tooltip.js"></script>
+	  <script src="lib/jquery-ui/js/jquery-ui-1.8.18.custom.min.js" type="text/javascript"></script>
 	  <style type="text/css">
 	  .actions {
 		  cursor: pointer;
