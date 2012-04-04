@@ -118,9 +118,9 @@
     <div class="navbar navbar-fixed-top">
 		<div class="navbar-inner">
 			<div class="container-fluid">
-				<h2 class="brand"><xsl:value-of select="../head/title" /></h2>
+				<h2 class="brand"><a href="{../head/ownerId}" target="_self"><xsl:value-of select="../head/ownerName" /></a></h2>
 				<ul class="nav">
-					<li class="active"><a href="index.opml" target="_self">Outline</a></li>
+					<li class="active"><xsl:value-of select="../head/title"></li>
 				</ul>
 			</div>
 		</div>
