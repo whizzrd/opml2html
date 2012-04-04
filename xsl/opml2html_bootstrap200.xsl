@@ -44,11 +44,11 @@
 	<link rel="alternate" type="application/rss+xml" title="RSS" href="index.rss" />
 	<link rel="alternate" type="application/opml+xml" title="OPML" href="index.opml" />
 	<link rel="outline" type="text/x-opml" title="Outline" href="index.opml" />
-	<script src="/svn/lib/jquery/tags/v1.7.1/jquery-1.7.1.js" type="text/javascript"></script>
+	<script src="/lib/jquery/js/jquery-1.4.3.min.js" type="text/javascript"></script>
 	<script src="/lib/jquery-treeview/js/jquery.cookie.js" type="text/javascript"></script>
 	<script src="/lib/jquery-treeview/js/jquery.treeview.js" type="text/javascript"></script>
 	<link rel="stylesheet" href="/lib/jquery-treeview/css/jquery.treeview.css" />
-	<link rel="stylesheet" href="/bootstrap/css/bootstrap.css" />
+	<link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.css" />
 	<script type="text/javascript" src="/lib/bootstrap/js/bootstrap.js"></script>
 	<script type="text/javascript" src="/lib/bootstrap/js/bootstrap-modal.js"></script>
 	<script type="text/javascript" src="/lib/bootstrap/js/bootstrap-carousel.js"></script>
@@ -131,7 +131,7 @@
 		<div class="row">
 			<div class="sidebar span2"> 
 				<div class="well">
-					<a href="http://opml.org"><img src="img/opml-icon-16x16.png" alt="OPML" /> About OPML</a>
+					<a href="http://opml.org"><img src="/lib/opml2html/img/opml-icon-16x16.png" alt="OPML" /> About OPML</a>
 				</div>
 
 				<div class="well">
@@ -288,7 +288,7 @@
 			<xsl:attribute name="href">
 				<xsl:value-of select="@xmlUrl"/>
 			</xsl:attribute>
-			<img src="img/rss-icon-16x16.png" alt="RSS" />
+			<img src="/lib/opml2html/img/rss-icon-16x16.png" alt="RSS" />
 		</a>
 		<xsl:if test="@description">
 			<p xml:space="preserve"><xsl:value-of select="@description" /></p>
@@ -604,7 +604,7 @@
 			<a href="https://twitter.com/share" class="twitter-share-button" data-text="{$text}" data-url="{$url}" data-via="{$via}" data-lang="en">Tweet</a>
 			<div class="fb-like" data-href="{$url}" data-send="true" data-layout="button_count" data-show-faces="false" data-ref="{$via}"></div>
 			<a title="Send to linkblog." onclick="sendToLinkblog(encodeURIComponent('{$text}'), encodeURIComponent('{$url}'), encodeURIComponent'{$text}'))">
-				<img src="img/opml-icon-16x16.png" alt="OPML" />
+				<img src="/lib/opml2html/img/opml-icon-16x16.png" alt="OPML" />
 			</a>
 		</xsl:if>
 	</xsl:template>
