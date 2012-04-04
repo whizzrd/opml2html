@@ -2,9 +2,9 @@
 <?xml-stylesheet href="xsl/opml2html2.xsl" type="text/xsl"?>
 <opml version="2.0">
   <head>
-    <title>Test</title>
+    <title>OPML2HTML2</title>
     <dateCreated>Sun, 18 Dec 2011 12:35:12 GMT</dateCreated>
-    <dateModified>Tue, 20 Dec 2011 00:25:38 GMT</dateModified>
+    <dateModified>Tue, 05 Apr 2012 00:25:38 GMT</dateModified>
     <ownerName>Joris van Lier</ownerName>
     <ownerId>http://whizzrd.artronics.nl/</ownerId>
   	<rules>
