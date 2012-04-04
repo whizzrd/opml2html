@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="xsl/opml2html2.xsl" type="text/xsl"?>
+<opml version="2.0">
+  <head>
+    <title>Test</title>
+    <dateCreated>Sun, 18 Dec 2011 12:35:12 GMT</dateCreated>
+    <dateModified>Tue, 20 Dec 2011 00:25:38 GMT</dateModified>
+    <ownerName>Joris van Lier</ownerName>
+    <ownerId>http://whizzrd.artronics.nl/</ownerId>
+  	<rules>
+		  <rule>
+			  <font-family>Georgia</font-family>
+			  <font-size>18px</font-size>
+			  <line-height>140%</line-height>
+			  <margin-left>10%</margin-left>
+		  </rule>
+		  <rule level="0">
+			  <font-family>Arial</font-family>
+			  <font-weight>bold</font-weight>
+			  <font-size>22px</font-size>
+			  <font-style>oblique</font-style>
+			  <text-transform>uppercase</text-transform>
+			  <line-height>180%</line-height>
+			  <margin-left>10%</margin-left>
+		  </rule>
+		  <rule level="1">
+			  <font-family>Arial</font-family>
+			  <font-weight>bold</font-weight>
+			  <font-size>18px</font-size>
+			  <font-style>italic</font-style>
+			  <text-transform>uppercase</text-transform>
+			  <line-height>180%</line-height>
+			  <margin-left>20%</margin-left>
+		  </rule>
+		  <rule level="2">
+			  <font-family>Arial</font-family>
+			  <font-weight>bold</font-weight>
+			  <font-size>14px</font-size>
+			  <font-style>normal</font-style>
+			  <text-transform>uppercase</text-transform>
+			  <line-height>180%</line-height>
+			  <margin-left>30%</margin-left>
+		  </rule>
+	  </rules>
+  </head>
+  <body>
+    <outline type="toolbox" text="toolbox">
+		  <outline text="text" icon="font" />
+		  <outline text="image" icon="picture" />
+		  <outline text="video" icon="film" />
+		  <outline text="grid" icon="th" />
+		  <outline text="qrcode" icon="qrcode"/>
+	  </outline>
+    <outline type="header" text="Gchart">
+      <outline type="header" text="QR-code">
+        <outline type="qrcode" text="Hello Mobile"/>
+      </outline>
+      <outline type="header" text="formula">
+        <outline type="formula" text="a^2%2Bb^2=c^2"/>
+      </outline>
+    </outline>
+  	<outline type="header" text="Headers" icon="signal">
+		<outline text="can contain other nodes and will" icon="ok" />
+		<outline type="header" text="All">
+			<outline text="be dependent on" />
+			<outline type="header" text="The">
+				<outline text="number of ancestors of type header even if they are" />
+				<outline type="header" text="Way">
+					<outline text="up or way" />
+					<outline type="header" text="Down">
+						<outline text="in the path" />
+						<outline type="header" text="To">
+							<outline text="Here" />
+							<outline text="Note: headers in included documents will NOT be recalculated" icon="exclamation-sign icon-white" class="alert alert-info" />
+						</outline>
+					</outline>
+				</outline>
+			</outline>
+		</outline>
+	</outline>
+	<outline type="header" text="Icons">
+		<outline type="header" text="Images as icons">
+			<outline icon="images/opml-icon-16x16.png" text="PNG icon" />
+			<outline icon="images/file.gif" text="GIF icon" />
+			<outline icon="images/icon.jpg" text="JPG icon" />
+		</outline>
+		<outline type="header" text="A button with an icon attribute">
+			<outline icon="heart" type="button" />
+		</outline>
+		<outline type="header" text="Bootstrap Icons">
+			<outline text="bootstrap CSS icons" type="outline">
+			  <outline text="glass" icon="glass" />
+			  <outline text="music" icon="music" />
+			  <outline text="search" icon="search" />
+			  <outline text="envelope" icon="envelope" />
+			  <outline text="heart" icon="heart" />
+			  <outline text="star" icon="star" />
+			  <outline text="star-empty" icon="star-empty" />
+			  <outline text="user" icon="user" />
+			  <outline text="film" icon="film" />
+			  <outline text="th-large" icon="th-large" />
+			  <outline text="th" icon="th" />
+			  <outline text="th-list" icon="th-list" />
+			  <outline text="ok" icon="ok" />
+			  <outline text="remove" icon="remove" />
+			  <outline text="zoom-in" icon="zoom-in" />
+			  <outline text="zoom-out" icon="zoom-out" />
+			  <outline text="off" icon="off" />
+			  <outline text="signal" icon="signal" />
+			  <outline text="cog" icon="cog" />
+			  <outline text="trash" icon="trash" />
+			  <outline text="home" icon="home" />
+			  <outline text="file" icon="file" />
+			  <outline text="time" icon="time" />
+			  <outline text="road" icon="road" />
+			  <outline text="download-alt" icon="download-alt" />
+			  <outline text="download" icon="download" />
+			  <outline text="upload" icon="upload" />
+			  <outline text="inbox" icon="inbox" />
+			  <outline text="play-circle" icon="play-circle" />
+			  <outline text="repeat" icon="repeat" />
+			  <outline text="refresh" icon="refresh" />
+			  <outline text="list-alt" icon="list-alt" />
+			  <outline text="lock" icon="lock" />
+			  <outline text="flag" icon="flag" />
+			  <outline text="headphones" icon="headphones" />
+			  <outline text="volume-off" icon="volume-off" />
+			  <outline text="volume-down" icon="volume-down" />
+			  <outline text="volume-up" icon="volume-up" />
+			  <outline text="qrcode" icon="qrcode" />
+			  <outline text="barcode" icon="barcode" />
+			  <outline text="tag" icon="tag" />
+			  <outline text="tags" icon="tags" />
+			  <outline text="book" icon="book" />
+			  <outline text="bookmark" icon="bookmark" />
+			  <outline text="print" icon="print" />
+			  <outline text="camera" icon="camera" />
+			  <outline text="font" icon="font" />
+			  <outline text="bold" icon="bold" />
+			  <outline text="italic" icon="italic" />
+			  <outline text="text-height" icon="text-height" />
+			  <outline text="text-width" icon="text-width" />
+			  <outline text="align-left" icon="align-left" />
+			  <outline text="align-center" icon="align-center" />
+			  <outline text="align-right" icon="align-right" />
+			  <outline text="align-justify" icon="align-justify" />
+			  <outline text="list" icon="list" />
+			  <outline text="indent-left" icon="indent-left" />
+			  <outline text="indent-right" icon="indent-right" />
+			  <outline text="facetime-video" icon="facetime-video" />
+			  <outline text="picture" icon="picture" />
+			  <outline text="pencil" icon="pencil" />
+			  <outline text="map-marker" icon="map-marker" />
+			  <outline text="adjust" icon="adjust" />
+			  <outline text="tint" icon="tint" />
+			  <outline text="edit" icon="edit" />
+			  <outline text="share" icon="share" />
+			  <outline text="check" icon="check" />
+			  <outline text="move" icon="move" />
+			  <outline text="step-backward" icon="step-backward" />
+			  <outline text="fast-backward" icon="fast-backward" />
+			  <outline text="backward" icon="backward" />
+			  <outline text="play" icon="play" />
+			  <outline text="pause" icon="pause" />
+			  <outline text="stop" icon="stop" />
+			  <outline text="forward" icon="forward" />
+			  <outline text="fast-forward" icon="fast-forward" />
+			  <outline text="step-forward" icon="step-forward" />
+			  <outline text="eject" icon="eject" />
+			  <outline text="chevron-left" icon="chevron-left" />
+			  <outline text="chevron-right" icon="chevron-right" />
+			  <outline text="plus-sign" icon="plus-sign" />
+			  <outline text="minus-sign" icon="minus-sign" />
+			  <outline text="remove-sign" icon="remove-sign" />
+			  <outline text="ok-sign" icon="ok-sign" />
+			  <outline text="question-sign" icon="question-sign" />
+			  <outline text="info-sign" icon="info-sign" />
+			  <outline text="screenshot" icon="screenshot" />
+			  <outline text="remove-circle" icon="remove-circle" />
+			  <outline text="ok-circle" icon="ok-circle" />
+			  <outline text="ban-circle" icon="ban-circle" />
+			  <outline text="arrow-left" icon="arrow-left" />
+			  <outline text="arrow-right" icon="arrow-right" />
+			  <outline text="arrow-up" icon="arrow-up" />
+			  <outline text="arrow-down" icon="arrow-down" />
+			  <outline text="share-alt" icon="share-alt" />
+			  <outline text="resize-full" icon="resize-full" />
+			  <outline text="resize-small" icon="resize-small" />
+			  <outline text="plus" icon="plus" />
+			  <outline text="minus" icon="minus" />
+			  <outline text="asterisk" icon="asterisk" />
+			  <outline text="exclamation-sign" icon="exclamation-sign" />
+			  <outline text="gift" icon="gift" />
+			  <outline text="leaf" icon="leaf" />
+			  <outline text="fire" icon="fire" />
+			  <outline text="eye-open" icon="eye-open" />
+			  <outline text="eye-close" icon="eye-close" />
+			  <outline text="warning-sign" icon="warning-sign" />
+			  <outline text="plane" icon="plane" />
+			  <outline text="calendar" icon="calendar" />
+			  <outline text="random" icon="random" />
+			  <outline text="comment" icon="comment" />
+			  <outline text="magnet" icon="magnet" />
+			  <outline text="chevron-up" icon="chevron-up" />
+			  <outline text="chevron-down" icon="chevron-down" />
+			  <outline text="retweet" icon="retweet" />
+			  <outline text="shopping-cart" icon="shopping-cart" />
+			  <outline text="folder-close" icon="folder-close" />
+			  <outline text="folder-open" icon="folder-open" />
+			  <outline text="resize-vertical" icon="resize-vertical" />
+			  <outline text="resize-horizontal" icon="resize-horizontal" />
+			</outline>
+			
+		</outline>
+
+	</outline>
+	<outline type="header" text="Grids">
+		<outline class="row">
+		  <outline class="span1" text="1" />
+		  <outline class="span1" text="1" />
+		  <outline class="span1" text="1" />
+		  <outline class="span1" text="1" />
+		  <outline class="span1" text="1" />
+		</outline>
+		<outline class="row">
+		  <outline class="span2" text="2" />
+		  <outline class="span2" text="2" />
+		  <outline class="span1" text="1" />
+		</outline>
+		<outline class="row">
+		  <outline class="span3" text="3" />
+		  <outline class="span2" text="2" />
+		</outline>
+		<outline class="row">
+		  <outline class="span5" text="A 5-span outline spans over 5 columns" />
+		</outline>
+	</outline>
+	<outline type="header" text="Carousel">
+		<outline type="carousel">
+			<outline type="photo" text="photo" htmlUrl="#htmlUrl" thumbUrl="http://www.artronics.nl/photos/construction_v.jpg" thumbWidth="120" thumbHeight="120" />
+			<outline type="photo" text="photo" htmlUrl="#htmlUrl" thumbUrl="http://www.artronics.nl/photos/DSC00007.JPG" thumbWidth="120" thumbHeight="120" />
+			<outline type="photo" text="photo" htmlUrl="#htmlUrl" thumbUrl="http://www.artronics.nl/photos/DSC00070.JPG" thumbWidth="120" thumbHeight="120" />
+			<outline type="photo" text="photo" htmlUrl="#htmlUrl" thumbUrl="http://www.artronics.nl/photos/DSC00138.JPG" thumbWidth="120" thumbHeight="120" />
+		</outline>
+	</outline>
+	<outline type="header" text="Tabs">
+		<outline type="tabs">
+			<outline text="tab1" class="well" icon="download">
+				<outline text="Foo"/>
+			</outline>
+			<outline text="tab2" class="well" icon="upload">
+				<outline text="Bar"/>
+			</outline>
+		</outline>
+	</outline>
+	<outline type="header" text="Accordion">
+		<outline type="accordion">
+			<outline text="collapse1" icon="download">
+				<outline text="Foo"/>
+			</outline>
+			<outline text="collapse2" icon="upload">
+				<outline text="Bar"/>
+			</outline>
+		</outline>
+	</outline>
+  </body>
+</opml>
