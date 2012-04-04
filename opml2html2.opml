@@ -5,8 +5,8 @@
     <title>OPML2HTML2</title>
     <dateCreated>Sun, 18 Dec 2011 12:35:12 GMT</dateCreated>
     <dateModified>Tue, 05 Apr 2012 00:25:38 GMT</dateModified>
-    <ownerName>Joris van Lier</ownerName>
-    <ownerId>http://whizzrd.artronics.nl/</ownerId>
+    <ownerName>Algorist/ownerName>
+    <ownerId>http://algorist.nl/</ownerId>
   	<rules>
 		  <rule>
 			  <font-family>Georgia</font-family>
