@@ -28,9 +28,9 @@
 		<xsl:copy-of select="title" />
 		<xsl:copy-of select="meta" />
 		<script src="/svn/lib/jquery/tags/v1.4.3/jquery-1.4.3.min.js" type="text/javascript"></script>
-		<script src="/svn/lib/jquery-treeview/trunk/jquery.cookie.js" type="text/javascript"></script>
-		<script src="/svn/lib/jquery-treeview/trunk/jquery.treeview.js" type="text/javascript"></script>
-		<link rel="stylesheet" href="/svn/lib/jquery-treeview/trunk/jquery.treeview.css" />
+		<script src="lib/jquery-treeview/js/jquery.cookie.js" type="text/javascript"></script>
+		<script src="lib/jquery-treeview/js/jquery.treeview.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="lib/jquery-treeview/css/jquery.treeview.css" />
 		<link rel="stylesheet" href="/svn/lib/bootstrap/tags/v1.4.0.0/bootstrap.css " />
 		<script type="text/javascript" src="/svn/lib/bootstrap/tags/v1.4.0.0/js/bootstrap-dropdown.js"></script>
 		<script type="text/javascript" src="/svn/lib/bootstrap/tags/v1.4.0.0/js/bootstrap-modal.js"></script>
