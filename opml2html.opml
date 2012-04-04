@@ -24,10 +24,10 @@
           <outline text="opml2html_bootstrap140.xsl" type="link" url="xsl/opml2html_bootstrap140.xsl" />
         </outline>
         <outline text="images (create folder)">
-          <outline text="opml-icon-16x16.png" type="link" url="images/opml-icon-16x16.png" />
-          <outline text="rss-icon-16x16.png" type="link" url="images/rss-icon-16x16.png" />
-          <outline text="treeview-default.gif" type="link" url="images/treeview-default.gif" />
-          <outline text="treeview-default-line.gif" type="link" url="images/treeview-default-line.gif" />
+          <outline text="opml-icon-16x16.png" type="link" url="img/opml-icon-16x16.png" />
+          <outline text="rss-icon-16x16.png" type="link" url="img/rss-icon-16x16.png" />
+          <outline text="treeview-default.gif" type="link" url="img/treeview-default.gif" />
+          <outline text="treeview-default-line.gif" type="link" url="img/treeview-default-line.gif" />
         </outline>
         <outline text="lib (create folder)">
           <outline text="bootstrap (create folder)">
@@ -120,7 +120,7 @@
           <outline type="code" text="&lt;outline text=&quot;{@text}&quot; description=&quot;{@description}&quot; type=&quot;rss&quot; xmlUrl=&quot;{@xmlUrl}&quot; htmlUrl=&quot;{@htmlUrl}&quot;&gt;...&lt;/outline&gt;"></outline>
         </outline>
         <outline text="html">
-          <outline type="code" text="&lt;li&gt;&lt;a href=&quot;{@htmlUrl}&quot;&gt;{@text}&lt;/a&gt;&lt;a href=&quot;{@xmlUrl}&quot;&gt;&lt;img src=&quot;images/rss-icon-16x16.png&quot; alt=&quot;RSS&quot; /&gt;&lt;/a&gt;&lt;p&gt;{@description}&lt;/p&gt;&lt;ul&gt;...&lt;/ul&gt;&lt;/li&gt;"></outline>
+          <outline type="code" text="&lt;li&gt;&lt;a href=&quot;{@htmlUrl}&quot;&gt;{@text}&lt;/a&gt;&lt;a href=&quot;{@xmlUrl}&quot;&gt;&lt;img src=&quot;img/rss-icon-16x16.png&quot; alt=&quot;RSS&quot; /&gt;&lt;/a&gt;&lt;p&gt;{@description}&lt;/p&gt;&lt;ul&gt;...&lt;/ul&gt;&lt;/li&gt;"></outline>
         </outline>
         <outline text="demo">
           <outline type="rss" text="feed" description="a feed" xmlUrl="#xmlurl" htmlUrl="#htmlUrl">
@@ -133,7 +133,7 @@
           <outline type="code" text="&lt;outline type=&quot;include&quot; text=&quot;{@text}&quot; url=&quot;{@url}&quot; /&gt;" />
         </outline>
         <outline text="html">
-          <outline type="code" text="&lt;li&gt;&#xD;&#xA;  {@text}&#xD;&#xA;  &lt;a href=&quot;{@url}&quot;&gt;&lt;img src=&quot;images/opml-icon-16x16.png&quot; alt=&quot;OPML&quot; /&gt;&lt;/a&gt;&#xA;&#xD;&#xA;  &lt;ul&gt;&#xD;&#xA;    ... parse document at @url ...&#xD;&#xA;  &lt;/ul&gt;&#xA;&#xD;&#xA;&lt;/li&gt;" />
+          <outline type="code" text="&lt;li&gt;&#xD;&#xA;  {@text}&#xD;&#xA;  &lt;a href=&quot;{@url}&quot;&gt;&lt;img src=&quot;img/opml-icon-16x16.png&quot; alt=&quot;OPML&quot; /&gt;&lt;/a&gt;&#xA;&#xD;&#xA;  &lt;ul&gt;&#xD;&#xA;    ... parse document at @url ...&#xD;&#xA;  &lt;/ul&gt;&#xA;&#xD;&#xA;&lt;/li&gt;" />
         </outline>
         <outline text="demo">
           <outline type="include" text="include" url="opml.opml" />
