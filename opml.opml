@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<opml version="2.0">
+  <head>
+    <title>OPML</title>
+    <dateCreated>Sun, 18 Dec 2011 12:35:12 GMT</dateCreated>
+    <dateModified>Tue, 20 Dec 2011 00:25:38 GMT</dateModified>
+    <ownerName>Joris van Lier</ownerName>
+    <ownerId>http://whizzrd.artronics.nl/</ownerId>
+  </head>
+  <body>
+    <outline text="OPML">
+      <outline text="about">
+        <outline text="opml.org" url="http://opml.org" type="link" />
+        <outline text="spec" url="http://dev.opml.org/spec2.html" title="opml-dev at Yahoo! Groups" type="link" />
+      </outline>
+      <outline text="groups">
+        <outline text="opml-dev Google Group" htmlUrl="http://groups.google.com/group/opml-dev" title="opml-dev Google Group" type="rss" xmlUrl="http://groups.google.com/group/opml-dev/feed/rss_v2_0_msgs.xml" />
+        <outline text="opml-dev at Yahoo! Groups" htmlUrl="http://tech.groups.yahoo.com/group/opml-dev/" title="opml-dev at Yahoo! Groups" type="rss" xmlUrl="http://rss.groups.yahoo.com/group/opml-dev/rss" />
+      </outline>
+    </outline>
+  </body>
+</opml>

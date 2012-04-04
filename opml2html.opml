@@ -18,7 +18,6 @@
       <outline type="link" text="&quot;Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid.&quot;" url="http://forilla.nl/" />
     </outline>
     <outline text="Get started">
-      <outline text="Link for fish" type="link" url="dialogs.opml" />
       <outline text="Download these files">
         <outline text="xsl (create folder)">
           <outline text="opml2html_bootstrap140.xsl" type="link" url="xsl/opml2html_bootstrap140.xsl" />
