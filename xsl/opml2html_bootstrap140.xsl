@@ -88,13 +88,10 @@
 			<div id="topbar" class="topbar">
 				<div class="topbar-inner">
 					<div class="container-fluid">
-						<h2 class="brand"><xsl:value-of select="../head/title" /></h2>
+						<h2 class="brand"><a href="{../head/ownerId}"><xsl:value-of select="../head/ownerName" /></a></h2>
 						<ul class="nav">
 							<li class="active">
-								<a target="_self">
-									<xsl:attribute name="href">
-										<xsl:value-of select="../head/ownerId"/>
-									</xsl:attribute>
+								<a href="#">
 									<xsl:value-of select="../head/title"/>
 								</a>
 							</li>
