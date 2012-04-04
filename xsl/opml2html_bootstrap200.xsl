@@ -46,8 +46,8 @@
 	<link rel="outline" type="text/x-opml" title="Outline" href="index.opml" />
 	<script src="lib/jquery/js/jquery-1.4.3.min.js" type="text/javascript"></script>
 	<script src="lib/jquery-treeview/js/jquery.cookie.js" type="text/javascript"></script>
-	<script src="lib/jquery-treeview/js/jquery.treeview.lib.js" type="text/javascript"></script>
-	<link rel="stylesheet" href="lib/jquery-treeview/css/jquery.treeview.css" />
+	<script src="lib/jquery-treeview/js/jquery.treeview.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="lib/jquery-treeview/css/jquery.treeview.lib.css" />
 	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css" />
 	<script type="text/javascript" src="lib/bootstrap/js/bootstrap-modal.js"></script>
 	<script type="text/javascript" src="lib/bootstrap/js/bootstrap-carousel.js"></script>
