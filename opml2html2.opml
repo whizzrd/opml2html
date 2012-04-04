@@ -81,7 +81,7 @@
 	<outline type="header" text="Icons">
 		<outline type="header" text="Images as icons">
 			<outline icon="lib/opml2html/img/opml-icon-16x16.png" text="PNG icon" />
-			<outline icon="lib/opml2html/img/file.gif" text="GIF icon" />
+			<outline icon="lib/jquery-treeview/img/file.gif" text="GIF icon" />
 			<outline icon="lib/opml2html/img/icon.jpg" text="JPG icon" />
 		</outline>
 		<outline type="header" text="A button with an icon attribute">
