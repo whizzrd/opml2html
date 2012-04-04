@@ -44,7 +44,6 @@
 		  }
 		  body {
 			padding-top: 40px; /* 40px to make the container go all the way to the bottom of the topbar */
-			background-image: url("photos/construction_v.jpg");
 		  }
 		  .container {
 			width: 90%;
