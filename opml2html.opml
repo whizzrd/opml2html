@@ -164,8 +164,8 @@
         </outline>
         <outline text="demo">
           <outline type="thumblist" text="thumblist">
-            <outline type="photo" text="photo" htmlUrl="#htmlUrl" thumbUrl="photos/construction_v.jpg" thumbWidth="120" thumbHeight="120" />
-            <outline type="photo" text="photo" htmlUrl="#htmlUrl" thumbUrl="photos/construction_v.jpg" thumbWidth="120" thumbHeight="120" />
+            <outline type="photo" text="photo" htmlUrl="#htmlUrl" thumbUrl="http://www.artronics.nl/photos/construction_v.jpg" thumbWidth="120" thumbHeight="120" />
+            <outline type="photo" text="photo" htmlUrl="#htmlUrl" thumbUrl="http://www.artronics.nl/photos/construction_v.jpg" thumbWidth="120" thumbHeight="120" />
           </outline>
         </outline>
       </outline>
@@ -177,7 +177,7 @@
           <outline type="code" text="&lt;li&gt;&#xD;&#xA;  &lt;a href=&quot;{@htmlUrl}&quot;&gt;&#xD;&#xA;&#xD;&#xA;    &lt;img class=&quot;thumbnail&quot; src=&quot;{@thumbUrl}&quot; alt=&quot;{@text}&quot; width=&quot;{@thumbWidth}&quot; height=&quot;{@thumbHeight}&quot; /&gt;&#x9;  &lt;/a&gt;&#xD;&#xA;&lt;/li&gt;&#xD;&#xA;" />
         </outline>
         <outline text="demo">
-          <outline type="photo" text="photo" htmlUrl="#htmlUrl" thumbUrl="photos/construction_v.jpg" thumbWidth="120" thumbHeight="120" />
+          <outline type="photo" text="photo" htmlUrl="#htmlUrl" thumbUrl="http://www.artronics.nl/photos/construction_v.jpg" thumbWidth="120" thumbHeight="120" />
         </outline>
       </outline>
       <outline text="button">
