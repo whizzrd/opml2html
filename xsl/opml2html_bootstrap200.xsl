@@ -120,7 +120,7 @@
 			<div class="container-fluid">
 				<h2 class="brand"><a href="{../head/ownerId}" target="_self"><xsl:value-of select="../head/ownerName" /></a></h2>
 				<ul class="nav">
-					<li class="active"><xsl:value-of select="../head/title"></li>
+					<li class="active"><xsl:value-of select="../head/title"/></li>
 				</ul>
 			</div>
 		</div>
