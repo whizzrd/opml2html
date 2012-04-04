@@ -144,7 +144,7 @@
 					<xsl:attribute name="href">
 						<xsl:value-of select="@xmlUrl"/>
 					</xsl:attribute>
-					<img src="images/rss-icon-16x16.png" alt="RSS" />
+					<img src="img/rss-icon-16x16.png" alt="RSS" />
 				</a>
 				<xsl:if test="@description">
 					<p xml:space="preserve"><xsl:value-of select="@description" /></p>
@@ -218,7 +218,7 @@
 				</script>
 			</xsl:when>
 			<xsl:when test="@type='include'">
-				<li><xsl:value-of select="@text" /><a href="{@url}"><img src="images/opml-icon-16x16.png" alt="OPML" /></a>
+				<li><xsl:value-of select="@text" /><a href="{@url}"><img src="img/opml-icon-16x16.png" alt="OPML" /></a>
 					<ul>
 						<xsl:apply-templates select="document(@url)/opml/body/*" />
 					</ul>
@@ -350,7 +350,7 @@
 			<a href="https://twitter.com/share" class="twitter-share-button" data-text="{$text}" data-url="{$url}" data-via="{$via}" data-lang="en">Tweet</a>
 			<div class="fb-like" data-href="{$url}" data-send="true" data-layout="button_count" data-show-faces="false" data-ref="{$via}"></div>
 			<a title="Send to linkblog." onclick="sendToLinkblog(encodeURIComponent('{$text}'), encodeURIComponent('{$url}'), encodeURIComponent'{$text}'))">
-				<img src="images/opml-icon-16x16.png" alt="OPML" />
+				<img src="img/opml-icon-16x16.png" alt="OPML" />
 			</a>
 		</xsl:if>
 	</xsl:template>
