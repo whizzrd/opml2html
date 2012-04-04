@@ -34,7 +34,6 @@
 		<link rel="stylesheet" href="/svn/lib/bootstrap/tags/v1.4.0.0/bootstrap.css " />
 		<script type="text/javascript" src="/svn/lib/bootstrap/tags/v1.4.0.0/js/bootstrap-dropdown.js"></script>
 		<script type="text/javascript" src="/svn/lib/bootstrap/tags/v1.4.0.0/js/bootstrap-modal.js"></script>
-		<base target="_blank" />
 		<style type="text/css">
 		<![CDATA[
 		  /* Override some defaults */
