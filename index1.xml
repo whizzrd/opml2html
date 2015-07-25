@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="xsl/opml2html_bootstrap140.xsl" type="text/xsl"?>
+<opml version="2.0">
+  <head>
+    <title>whizzrd</title>
+    <ownerName>whizzrd</ownerName>
+    <ownerId>http://whizzrd.github.io/</ownerId>
+  </head>
+  <body>
+    <outline type="include" text="opml2html" url="opml2html.opml" />
+  </body>
+</opml>
